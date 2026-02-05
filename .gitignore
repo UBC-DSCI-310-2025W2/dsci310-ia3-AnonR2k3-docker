@@ -47,3 +47,12 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+# System files 
+.DS_Store
+Thumbs.db
+
+# renv library 
+renv/library/
+renv/python/
+renv/staging/
