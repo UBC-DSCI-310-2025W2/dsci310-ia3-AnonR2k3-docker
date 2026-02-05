@@ -23,7 +23,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5
         with:
-          images: ${{ secrets.DOCKER_USERNAME }}/dsci310-ia3-anonr2k3-docker
+          images: ${{ secrets.DOCKER_USERNAME }}/dockerfile-practice
           tags: |
             type=raw,value=latest
             type=sha
